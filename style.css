@@ -1,0 +1,38 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+#status, #number_of_objects, #start{
+    font-size: 18px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    background-color:rgb(39, 117, 128);
+    color: whitesmoke;
+    line-height: 4;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+canvas{
+    animation-name: animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;  
+    border-radius: 8px;  
+    margin-top: 67px;
+}
+@keyframes animation{
+    0%{ box-shadow:1px 1px 30px rgb(169, 244, 255);}
+    40%{box-shadow: 1px 1px 30px grey;}
+    60%{box-shadow: 1px 1px 30px rgb(255, 179, 179)}
+    100%{box-shadow: 1px 1px 30px rgb(209, 169, 255)}
+}
